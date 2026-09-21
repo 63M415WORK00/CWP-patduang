@@ -1,2 +1,4 @@
-my_age = 22 + 42
+age = 22
+num = 42
+my_age = age + num
 print(my_age)
