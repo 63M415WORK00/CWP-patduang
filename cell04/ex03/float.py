@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 num = input("Give me a number: ")
 
 if float(num)%1 > 0:
