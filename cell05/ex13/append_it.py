@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+import sys
+if len(sys.argv[1:]) >= 1:
+   for i in sys.argv[1:]:
+        if i.endswith("ism"):
+           continue
+        else:
+           print(i, end=(""))
+           print("ism")
+     
+else:
+    print("none")
+    
+# หาตัวที่ไม่มี ism แล้วเอามาเติม ถ้ามีอยู่แล้วไม่เอา

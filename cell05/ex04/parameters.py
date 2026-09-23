@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+import sys
+
+print("Number of parameters: %d."%len(sys.argv[1:]))
+
+#จำนวนคำที่ใส่เข้าไป
